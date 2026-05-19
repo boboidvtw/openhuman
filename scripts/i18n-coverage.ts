@@ -36,6 +36,7 @@ const CHUNK_COUNT = 5;
 const ALL_LOCALES = [
   "en",
   "zh-CN",
+  "zh-TW",
   "hi",
   "es",
   "ar",

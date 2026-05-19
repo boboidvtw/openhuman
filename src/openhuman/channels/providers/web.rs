@@ -1691,6 +1691,7 @@ pub(crate) fn locale_reply_directive(locale: &str) -> Option<String> {
         "pt" => "Portuguese",
         "ru" => "Russian",
         "zh-CN" | "zh" => "Simplified Chinese",
+        "zh-TW" => "Traditional Chinese",
         // English (and any unrecognised tag) → no directive.
         _ => return None,
     };

@@ -29,6 +29,7 @@ const CHUNK_COUNT = 5;
 
 const LOCALE_HEADERS: Record<string, string> = {
   "zh-CN": "Simplified Chinese (简体中文)",
+  "zh-TW": "Traditional Chinese (繁體中文)",
   hi: "Hindi (हिन्दी)",
   es: "Spanish (Español)",
   ar: "Arabic (العربية)",

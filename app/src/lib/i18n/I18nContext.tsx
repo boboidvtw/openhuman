@@ -13,6 +13,7 @@ import pt from './pt';
 import ru from './ru';
 import type { Locale } from './types';
 import zhCN from './zh-CN';
+import zhTW from './zh-TW';
 
 interface I18nContextValue {
   t: (key: string) => string;
@@ -22,6 +23,7 @@ interface I18nContextValue {
 const translations: Record<Locale, Record<string, string>> = {
   en,
   'zh-CN': zhCN,
+  'zh-TW': zhTW,
   hi,
   es,
   ar,

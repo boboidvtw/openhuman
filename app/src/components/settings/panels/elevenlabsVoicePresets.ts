@@ -99,6 +99,7 @@ export const DEFAULT_VOICE_BY_LOCALE: Readonly<
   // Female default: Rachel — neutral, widely-used. Male default: Adam.
   en: { female: '21m00Tcm4TlvDq8ikWAM', male: 'pNInz6obpgDQGcFmaJgB' },
   'zh-CN': { female: 'EXAVITQu4vr4xnSDxMaL', male: 'pNInz6obpgDQGcFmaJgB' },
+  'zh-TW': { female: 'EXAVITQu4vr4xnSDxMaL', male: 'pNInz6obpgDQGcFmaJgB' },
   hi: { female: 'EXAVITQu4vr4xnSDxMaL', male: 'ErXwobaYiN019PkySvjV' },
   es: { female: 'jsCqWAovK2LkecY7zXl4', male: 'ErXwobaYiN019PkySvjV' },
   ar: { female: 'AZnzlk1XvdvUeBnXmlld', male: 'VR6AewLTigWG4xSOukaG' },

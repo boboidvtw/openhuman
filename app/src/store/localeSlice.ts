@@ -6,6 +6,8 @@ import type { Locale } from '../lib/i18n/types';
 // `in` (legacy Indonesian) must come after `id` (Bahasa) so neither shadows
 // the other, and `en` sits last so it loses to a more specific match.
 const PREFIX_TO_LOCALE: Array<[string, Locale]> = [
+  ['zh-tw', 'zh-TW'],
+  ['zh-hk', 'zh-TW'],
   ['zh', 'zh-CN'],
   ['hi', 'hi'],
   ['es', 'es'],
